@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    background-color: rgba(0, 255, 55, 0.699);
+}
+h2{
+    background-color: rgba(0, 255, 55, 0.699);
+}
+ol{
+font-style: oblique;}
+li{
+    background-color: black;
+}
+
+#para1
+ { text-align: center;
+    background-color: cadetblue;
+}
+#para2
+{
+    text-align: center;
+    background-color: cadetblue;
+}
+h3{
+    background-color: whitesmoke;
+}
+body{
+    background-color: black;
+}

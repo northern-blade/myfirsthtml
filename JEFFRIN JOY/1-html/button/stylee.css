@@ -1,0 +1,16 @@
+.transition-button{
+    background-color: chocolate;
+    color: black;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 9px;
+    font-size: 25px;
+    cursor: pointer;
+    transition-property: background-color,transform;
+    transition-duration: 0.99s;
+    transition-timing-function: ease-in-out;
+}
+.transition-button:hover{
+    background-color: orchid;
+    transform: scale(2.0);
+}
