@@ -28,27 +28,28 @@
     cursor: pointer;
 }
 .pulsing-box{
-width: 20px;
-height: 20px;
-background-color: aliceblue;
+width: 1200px;
+height: 900px;
+background-color: blue;
+background-image: url(https://motionbgs.com/media/3143/unyielding-itachis-sharingan.jpg);
 border-radius: 5px;
 margin: 50px;
 animation-name: pulse;
-animation-duration: 2.0s;
+animation-duration: 4.0s;
 animation-iteration-count: infinite;
 animation-timing-function: ease-in-out;
 }
 @keyframes pulse{
     0%{
         transform: scale(1);
-        box-shadow:  orangered;
+        box-shadow: 0 0 0 orangered;
     }
     50%{
-        transform: scale(1);
-        box-shadow: orangered;
+        transform: scale(1.1);
+        box-shadow: 0 0 15px orangered;
     }
     100%{
         transform: scale(1);
-        box-shadow: orangered;
+        box-shadow: 0 0 0  orangered;
     }
 }
