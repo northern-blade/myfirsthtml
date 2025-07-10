@@ -1,0 +1,54 @@
+.transition-button{
+    background-color: chocolate;
+    color: black;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+    transition-property: background-color,transform;
+    transition-duration: 0.99s;
+    transition-timing-function: ease-in-out;
+}
+.transition-button:hover{
+    background-color: orchid;
+    transform: scale(1.5);
+}
+#img1{
+    margin-top: 20px;
+    height: 800px;
+    width: 1500px;
+    border: 2px slategrey;
+    box-shadow: 8px 8px 5px burlywood;
+    transition: opacity 1.0s ease;
+    opacity: 0;
+}
+#img1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.pulsing-box{
+width: 20px;
+height: 20px;
+background-color: aliceblue;
+border-radius: 5px;
+margin: 50px;
+animation-name: pulse;
+animation-duration: 2.0s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+        box-shadow:  orangered;
+    }
+    50%{
+        transform: scale(1);
+        box-shadow: orangered;
+    }
+    100%{
+        transform: scale(1);
+        box-shadow: orangered;
+    }
+}
